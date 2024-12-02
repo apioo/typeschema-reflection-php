@@ -1,0 +1,57 @@
+{
+  "type": "model-php",
+  "require": {
+    "./level_1_format.json": {
+      "target": "../DTO/Level_1_format",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_1_format"
+    },
+    "./level_1_simple.json": {
+      "target": "../DTO/Level_1_simple",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_1_simple"
+    },
+    "./level_2_array_inline_reference.json": {
+      "target": "../DTO/Level_2_array_inline_reference",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_array_inline_reference"
+    },
+    "./level_2_array_inline_string.json": {
+      "target": "../DTO/Level_2_array_inline_string",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_array_inline_string"
+    },
+    "./level_2_array_reference.json": {
+      "target": "../DTO/Level_2_array_reference",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_array_reference"
+    },
+    "./level_2_array_string.json": {
+      "target": "../DTO/Level_2_array_string",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_array_string"
+    },
+    "./level_2_map_inline_reference.json": {
+      "target": "../DTO/Level_2_map_inline_reference",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_map_inline_reference"
+    },
+    "./level_2_map_inline_string.json": {
+      "target": "../DTO/Level_2_map_inline_string",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_map_inline_string"
+    },
+    "./level_2_map_reference.json": {
+      "target": "../DTO/Level_2_map_reference",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_map_reference"
+    },
+    "./level_2_map_string.json": {
+      "target": "../DTO/Level_2_map_string",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_2_map_string"
+    },
+    "./level_3_inheritance.json": {
+      "target": "../DTO/Level_3_inheritance",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_3_inheritance"
+    },
+    "./level_4_generic.json": {
+      "target": "../DTO/Level_4_generic",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_4_generic"
+    },
+    "./level_5_discriminator.json": {
+      "target": "../DTO/Level_5_discriminator",
+      "namespace": "TypeSchema\\Reflection\\Tests\\DTO\\Level_5_discriminator"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "typeschema/reflection",
+  "description": "This library helps to generate a TypeSchema specification using reflection",
+  "homepage": "https://typeschema.org/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christoph Kappestein",
+      "email": "christoph.kappestein@gmail.com",
+      "homepage": "https://chrisk.app/"
+    }
+  ],
+  "require": {
+    "typeschema/model": "^0.1"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^5.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TypeSchema\\Reflection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TypeSchema\\Reflection\\Tests\\": "tests/"
+    }
+  }
+}
